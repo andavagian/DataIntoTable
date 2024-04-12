@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <button onclick="open_close()">Get Data</button>
+        <input type="text" placeholder="Search..." name="search" oninput="search()" id="searchWord">
+    </div>
+    <table border="1">
+        <thead>
+            <td>id</td>
+            <td>name</td>
+            <td>username</td>
+            <td>email</td>
+            <td>address</td>
+            <td>phone</td>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
